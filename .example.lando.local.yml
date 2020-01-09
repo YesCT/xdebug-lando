@@ -1,0 +1,6 @@
+config:
+  xdebug: false
+services:
+  appserver:
+    config:
+      php: .lando.php.ini
