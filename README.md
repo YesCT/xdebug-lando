@@ -11,7 +11,7 @@
   cd xdebug-lando
   ```
 
-- [Install Lando](https://docs.devwithlando.io/started.html) 
+- [Install Lando](https://docs.devwithlando.io/started.html)
 
   - If you need to be on an older version of Lando for some other project, use that. If you don't need to be on an older version, get the latest version.
 
@@ -71,3 +71,7 @@ Rebuild the appserver: `lando rebuild -s appserver`.
 If need custom php.ini settings,
 copy `.example.lando.php.ini` to `.lando.php.ini` and comment, uncomment, or
 add lines in `.lando.php.ini`.
+
+If need env variables,
+copy `.example.lando.local.env` to `.lando.local.env` and comment, uncomment, or
+add lines in `.lando.local.env`

@@ -36,6 +36,7 @@ web/web.config
 # Local lando overrides
 .lando.local.yml
 .lando.php.ini
+.lando.local.env
 
 # Lint cache
 .phplint-cache
