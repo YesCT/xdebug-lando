@@ -4,3 +4,5 @@ services:
   appserver:
     config:
       php: .lando.php.ini
+env_file:
+  - .lando.local.env
