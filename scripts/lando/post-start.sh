@@ -42,3 +42,5 @@ printf "lando db-import database.sql.gz\n\n"
 # Install instructions
 printf "Or install using:\n"
 printf "lando drush site-install standard --db-url='mysql://[db_user]:[db_pass]@localhost/[db_name]' --site-name=Example\n\n"
+printf "Get the lando details from: lando info\nShould be:\n"
+printf "lando drush site-install standard --db-url='mysql://drupal8:drupal8@database/drupal8' --site-name=Example\n\n"
