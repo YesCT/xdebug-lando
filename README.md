@@ -59,7 +59,7 @@
 
 ### Local Lando Settings
 
-Copy `.example.lando.local.yml` to `.lando.local.yml`
+`cp .example.lando.local.yml .lando.local.yml`
 
 #### Xdebug
 
@@ -69,9 +69,9 @@ to turn xdebug on, change xdebug from false to true in `.lando.local.yml`
 Rebuild the appserver: `lando rebuild -s appserver`.
 
 If need custom php.ini settings,
-copy `.example.lando.php.ini` to `.lando.php.ini` and comment, uncomment, or
+`cp .example.lando.php.ini .lando.php.ini` and comment, uncomment, or
 add lines in `.lando.php.ini`.
 
 If need env variables,
-copy `.example.lando.local.env` to `.lando.local.env` and comment, uncomment, or
+`cp .example.lando.local.env .lando.local.env` and comment, uncomment, or
 add lines in `.lando.local.env`
