@@ -1,4 +1,4 @@
-name: d88
+name: d8
 recipe: drupal8
 config:
   webroot: web
