@@ -1,4 +1,17 @@
-name: d88
+name: d8
 recipe: drupal8
 config:
   webroot: web
+  php: '7.3'
+events:
+  post-start:
+    - bash /app/scripts/lando/post-start.sh
+  post-db-import:
+    - appserver: /app/vendor/bin/drush cr --root=/app/web
+#    - appserver: /app/vendor/bin/drush cim --root=/app/web -y
+#    - appserver: /app/vendor/bin/drush cim --root=/app/web -y
+#    - appserver: /app/vendor/bin/drush updb --root=/app/web -y
+#    - appserver: /app/vendor/bin/drush cr --root=/app/web
+tooling:
+  drush:
+    cmd: /app/vendor/bin/drush --root=/app/web
